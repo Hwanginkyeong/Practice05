@@ -2,9 +2,16 @@ package com.javaex.ex04;
 
 public class Base {
 	
+	//필드 
 	private String state;
 
     
+	//생성자 
+	
+	
+	//메소드 g/s
+	
+	//메소드 일반 
     public void service(String state) {
         
     }
