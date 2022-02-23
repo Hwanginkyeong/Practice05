@@ -13,27 +13,25 @@ public class Member {
 	}
 
 	public Member(String name, String id, int point) {
-		super();
-		this.id = id;
 		this.name = name;
+		this.id = id;
 		this.point = point;
 	}
 
 	//메소드 g/s
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
 	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public int getPoint() {
@@ -46,11 +44,6 @@ public class Member {
 
 	
 	//메소드 일반 
-	@Override
-	public String toString() {
-		return "Member [name=" + name + ", id=" + id + ", point=" + point + "]";
-	}
-
 	public void showInfo() {
 		System.out.println("회원정보: " + name + "("+id+")"+", "+ point+"점");
 		
